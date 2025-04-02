@@ -8,7 +8,7 @@ int main(){
     media = ((n1+n2+n3)/3);
     printf("%f\n", media);
 
-    if (media >= 8){
+    if (media > 8){
         printf("Aprovado com Distincao");
     }
     else if (media >= 6){
