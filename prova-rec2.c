@@ -12,11 +12,13 @@ int main()
     printf("Escreva O valor final do intervalo: ");
     scanf ("%d", &f);
 
-    for ( b!= 0; b*i < f; i++)
-    {
-        n = (b*i) + n;
+    if ( b!= 0 ){
+        for ( b!= 0; b*i < f; i++)
+        {
+            n = (b*i) + n;
+        }
     }
-
+        
     printf("A soma dos múltiplos de %d no intervalo é: %d", b, n);
     return 0;
 }
