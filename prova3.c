@@ -16,17 +16,17 @@ int main()
 
    if (dano > 5000){
       printf("DANO CRÍTICO MASSIVO!\n");
-      printf("%.0f", dano);
+      printf("%.1f", dano);
    }
 
-   else if (1000 < dano < 5000){
+   else if (dano < 1000 && dano < 5000){
       printf("DANO CRÍTICO!\n");
-      printf("%.0f", dano);
+      printf("%.1f", dano);
    }
 
    else {
       printf("Dano normal\n");
-      printf("%.0f", dano);
+      printf("%.1f", dano);
    }
 
     return 0;
