@@ -14,20 +14,19 @@ int main()
 
     dano = (forca * nivel * multiplicador);
 
-   if (dano >= 5000){
-      printf("DANO CRÍTICO MASSIVO!\n");
-      printf("%.1f", dano);
-   }
+    printf("Dano: %.0f\n", dano);
 
-   else if (dano <= 1000){
-      printf("DANO CRÍTICO!\n");
-      printf("%.1f", dano);
-   }
-
-   else {
-      printf("Dano normal\n");
-      printf("%.1f", dano);
-   }
-
+    if (dano >= 5000){
+        printf("DANO CRITICO MASSIVO!");
+    }
+    
+    else if (dano >= 1000){
+        printf("DANO CRITICO!");
+    }
+    
+    else {
+        printf("Dano normal");
+    }
+    
     return 0;
-}
+    }
