@@ -9,7 +9,7 @@ int main()
     scanf ("%f %f", &altura, &largura);
 
     perimetrot = (2*altura + 2*largura);
-    perimetro = (2*altura + 2*largura) - 0.8 ;
+    perimetro = perimetrot - 0.8 ;
     area = altura*largura;
 
     printf("O perimetro é: %.1f \n", perimetrot);
