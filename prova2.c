@@ -12,8 +12,7 @@ int main()
     printf("Em quantos segundos você percorreu? ");
     scanf ("%d", &tempos);
 
-    seg = (tempomin * 60) + tempos;
-    seg /= distancia;
+    seg = ((tempomin * 60) + tempos) / distancia;
 
     min = seg / 60;
     seg = seg % 60;
