@@ -7,7 +7,7 @@
 int main()
 {
     int m[DIMENSAO1][DIMENSAO2];
-    int i,j,k;
+    int i,j;
 
     srand(time(NULL));
     for(i=0; i<DIMENSAO1; i++)
