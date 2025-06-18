@@ -54,7 +54,3 @@ int main()
 
     return 0;
 }
-
-    fclose(arquivo);
-    return 0;
-}
