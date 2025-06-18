@@ -27,6 +27,10 @@ int main()
         printf("Deu problema!");
         return 1;
     }
+    
+    fclose(arquivo);
+    return 0;
+}
   ------------------------------------------------------ outro arquivo -----------------------------------------
 - adiciona uma nova linha
     #include <stdio.h>
